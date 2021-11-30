@@ -1,0 +1,9 @@
+server:   port: 8086
+spring:
+  application:
+    name: bootcamp-eureka-server
+eureka:  server:
+    enableSelfPreservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
